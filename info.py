@@ -32,7 +32,7 @@ INDEX_CAPTION = bool(environ.get('SAVE_CAPTION', True)) # Save caption db when i
 COVERX = bool(environ.get('COVERX', True)) # Use cover image for indexed files (default: True)
 # If you disable it then bot will use a default thumb for all files
 
-PICS = (environ.get('PICS', 'https://graph.org/file/9f3c1deba1d9ee01ad013-6be81c525a6823db4f.jpg')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://graph.org/file/9f3c1deba1d9ee01ad013-6be81c525a6823db4f.jpg https://graph.org/file/9a03246e0233ef95542f3-b4ec09b0636a4044f0.jpg')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg https://graph.org/file/b025e33f837ab9b51b52b-b2eeff610a459a2882.jpg")
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://graph.org/file/56b5deb73f3b132e2bb73.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
